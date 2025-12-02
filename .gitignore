@@ -1,52 +1,6 @@
-### Maven / build ###
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### IDE ###
-# IntelliJ IDEA
 .idea/
-*.iws
-*.iml
-*.ipr
-
-# VS Code
-.vscode/
-
-# Eclipse / NetBeans / vari
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### Mac OS ###
-.DS_Store
-
-### PixelStacker packaging / artefatti ###
-/PixelStacker-*.dmg
-/PixelStacker.app
-/dist-dmg/
-/dist-resources/
-/dmg-tmp/
+.mvn/
 /src/main/dist/
 
-# (opzionale, se non lo vuoi versionare)
-/dependency-reduced-pom.xml
-
-#icons
-/icon.icns
-/icon.png
-/icon.iconset/
-/pom.xml
+.DS_Store
