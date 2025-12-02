@@ -1,0 +1,62 @@
+.home-button {
+    -fx-background-color: transparent;
+}
+
+.settings-popup {
+    -fx-background-color: #C0C0C0;
+}
+
+.settings-title {
+    -fx-text-fill: Black;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.toolbar-button {
+    -fx-font-size: 16px;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-background-color: grey;
+    -fx-text-fill: black;
+}
+
+.add-button {
+    -fx-font-size: 16px;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-background-color: #f9d423;
+    -fx-text-fill: black;
+}
+
+.stack-button {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-background-color: #f69125;
+    -fx-text-fill: white;
+}
+
+.delete-button {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+    -fx-max-width: 30px;
+    -fx-max-height: 30px;
+    -fx-background-color: #f34e27;
+    -fx-background-radius: 8;
+    -fx-padding: 0;
+}
+
+.split-pane {
+    -fx-background-color: transparent;
+    -fx-border-insets: 0;
+    -fx-border-color: #cfcfcf transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(to right, #f9d423, #f34e27);
+}

@@ -1,0 +1,58 @@
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.page-background {
+    -fx-background-color: #1a1a1a;
+}
+
+.mode-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.big-hint {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.small-hint {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.list-background {
+    -fx-background-color: #1a1a1a;
+    -fx-background-insets: 0;
+    -fx-control-inner-background: #1a1a1a;
+    -fx-control-inner-background-alt: #1a1a1a;
+}
+
+.list-background .list-cell {
+    -fx-background-color: #1a1a1a;
+}
+
+.list-background .list-cell:filled:selected,
+.list-background .list-cell:filled:selected:focused {
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}
+
+.list-background .list-cell:filled:hover {
+    -fx-background-color: #C0C0C0;
+}
+
+.list-background .virtual-flow .corner {
+    -fx-background-color: #1a1a1a;
+}
+
+.split-pane > .split-pane-divider {
+    -fx-background-color: grey;
+    -fx-padding: 0 0 0 1px;
+}
+
+.placeholder-background {
+    -fx-background-color: #252525;
+}
